@@ -1,0 +1,87 @@
+.authForm {
+  background-color: #0051ff;
+  color: black;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.welcomeDash{
+  /* width: 60%; */
+  display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+    color: white;
+    /* background-color: black; */
+    flex: 3;
+}
+
+.welcomeDash img{
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+.welcomeText h2{
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+.welcomeText p{
+    line-height: 26px;
+    color: #bdb9b9;
+}
+.auth {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  flex-direction: column;
+  background-color: #fff;
+  height: 100vh;
+  flex: 2;
+  padding: 30px;
+}
+
+.auth h1{
+    font-size: 50px;
+}
+
+.auth h2{
+    font-size: 30px;
+    color: #4678e4;
+}
+
+.auth .account{
+    font-size: 18px;
+}
+
+.auth form {
+  width: 70%;
+  
+}
+
+.auth form input {
+  display: block;
+  width: 100%;
+  padding: 20px 15px;
+  border: solid 1px #ccc;
+  border-radius: 10px;
+  background-color: #ccc;
+  margin: 20px 0;
+  outline-color: #0051ff;
+  font-size: 18px;
+}
+
+
+
+.auth form button {
+  padding: 15px;
+  text-transform: capitalize;
+  background-color: #0051ff;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+}
