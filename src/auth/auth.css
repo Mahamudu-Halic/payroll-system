@@ -19,7 +19,10 @@
 }
 
 .welcomeDash .image{
-  width: 500px;
+  width: 100%;
+  max-width: 700px;
+  /* padding: 200px; */
+  /* background-color: red; */
   margin: 0 auto;
 }
 
